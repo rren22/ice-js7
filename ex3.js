@@ -12,4 +12,6 @@ const studentCountByStanding = {
 // use .sort() or .toSorted()
 // You do NOT need to print which kind of student it goes with
 
-console.log("Hello world");
+const counts = Object.values(studentCountByStanding);
+counts.sort();
+console.log(counts[counts.length - 1]);
